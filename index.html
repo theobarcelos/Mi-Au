@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" contet="width-device-width, initial-scale=1.0">
+    <title>Mi-Au</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class = "container" >
+                <h1>Mi-Au</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#Adocao">Adoção</a></li>
+                        <li><a href="#Sobre_nos">Sobre nós</a></li>
+                        <li><a href="#Contato">Contato</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section id="home">
+                <div class="container">
+                    <h2>Bem vindo</h2>
+                    <p>Aqui nos temos informaçoes para ajudar a adotar um pet</p>
+                </div>
+            </section>
+            <section id ="adocao">
+                <div class ="container">
+                    <h2>Adoção</h2>
+                    <div class = "project-grid">
+                        <img src="projec.jpg" alt = "Projeto 1">
+                        <h3>Projeto 1</h3>
+                        <p>Descrição do projeto</p>
+                        <div class = "project-grid">
+                            <img src="projec.jpg" alt = "Projeto 2">
+                            <h3>Projeto 2</h3>
+                            <p>Descrição do projeto</p>
+                            <div class = "project-grid">
+                                <img src="projec.jpg" alt = "Projeto 3">
+                                <h3>Projeto 3</h3>
+                                <p>Descrição do projeto</p>
+                                <div class = "project-grid">
+                                    <img src="projec.jpg" alt = "Projeto 4">
+                                    <h3>Projeto 4</h3>
+                                    <p>Descrição do projeto</p>
+                    </div>
+                </div>
+            </section>
+            <section id="sobre_nos">
+                <h2> Sobre nos</h2>
+                <p>Somos a equipe Mi-Au</p>
+            </section>
+            <section id="contact">
+            <h2>Contato</h2>
+            <p> Entre em conato conosco atraves do formulario abaixo</p>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="messsage" name=""message required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            </section>
+            </main>
+            <footer>
+                <p>&copy; 2024 Miau. Todos os direitos reservados</p>
+            </footer>
+            <script src="script.js"> </script>
+    </body>
+
+</html>
