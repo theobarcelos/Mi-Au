@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family: "Fredoka", sans-serif;
 }
+
+html, body{
+    overflow-x: hidden;
+}
+
 
 body{
     font-family:Arial, sans-serif;
@@ -10,7 +18,7 @@ body{
 }
 
 header{
-    background: rgb(252, 235, 0);
+    background: rgb(228, 215, 40);
     color: #000000f5;
     padding: 1rem 0;
     text-align: center;
@@ -37,11 +45,39 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
+    color: black;
+    transition: 1s ease;
+    font-weight: 600;
 }
 
 main {
     padding: 1rem;
 }
+
+.container-adocao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subt-adocao-container{
+    height: 90px;
+}
+
+.subt-adocao{
+    font-size: 50px;
+}
+
+.project-grid-1{
+    display: grid;
+    justify-content: left;
+}
+
+.img-grid{
+    width: 200px;
+    border-radius: 16px;
+}
+
 
 section {
     margin-bottom: 2rem;
