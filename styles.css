@@ -76,6 +76,11 @@ main {
 .img-grid{
     width: 200px;
     border-radius: 16px;
+    height: 200px;
+}
+
+.description-animal{
+    opacity: 0.6;
 }
 
 
