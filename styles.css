@@ -79,6 +79,16 @@ main {
     height: 200px;
 }
 
+.dpdown-button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: grid;
+    justify-content: left;
+}
+
 .description-animal{
     opacity: 0.6;
 }
