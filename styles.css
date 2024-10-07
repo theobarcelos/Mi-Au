@@ -88,9 +88,65 @@ section {
     margin-bottom: 2rem;
 }
 
+#contact{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.img-dawg{
+    height: 400px;
+}
+
+.grid-div{
+    height: 30rem;
+    background-color: rgb(247, 239, 127);
+    display: grid;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80px;
+    width: 40rem;
+}
+
+.p-contacts{
+    text-align: justify;
+    width: 30rem;
+}
+
 form {
     display: grid;
     gap: 1rem;
+    width: 30rem;
+    height: 20rem;
+    font-weight: 900;
+}
+
+.text-box{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 10px 5px 5px rgb(116, 116, 116);
+}
+
+.text-box:hover{
+    background-color: rgb(228, 215, 40);
+    transition: 1s linear;
+    border: none;
+    box-shadow: 10px 5px 5px black;
+}
+
+.button-form{
+    font-size: 20px;
+    box-shadow: 10px 5px 5px rgb(116, 116, 116);
+}
+
+.button-form:hover{
+    background-color: rgb(228, 215, 40);
+    transition: 1s linear;
+    transform: scale(1.1);
+    border-radius: 20px;
+    font-weight: 900;
+    box-shadow: 10px 5px 5px black;
 }
 
 footer {
