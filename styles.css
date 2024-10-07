@@ -98,7 +98,13 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
+    height: 2.5rem;
     position: fixed;
     bottom: 0;
     width: 100%
+}
+
+.p-footer{
+    position: relative;
+    bottom: 8px;
 }
