@@ -83,6 +83,10 @@ main {
     opacity: 0.6;
 }
 
+.p-sobre-nos{
+    text-align: justify;
+    width: 50rem;
+}
 
 section {
     margin-bottom: 2rem;
