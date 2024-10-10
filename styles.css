@@ -54,8 +54,26 @@ main {
     padding: 1rem;
 }
 
+.container-welcome{
+    display: grid;
+    justify-content: center;
+}
+
 .flex-container{
     display: flex;
+    justify-content: center;
+}
+
+.subt-welcome{
+    font-size: 15rem;
+}
+
+.img-logo{
+    width: 200px;
+    height: 200px;
+    right: 7rem;
+    top: 15rem;
+    position: absolute;
 }
 
 .container-adocao{
