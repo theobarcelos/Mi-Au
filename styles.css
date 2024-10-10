@@ -50,13 +50,18 @@ nav ul li a:hover {
     font-weight: 600;
 }
 
-main {
+main{
     padding: 1rem;
+}
+
+#home{
+    margin-bottom: 100px;
 }
 
 .container-welcome{
     display: grid;
     justify-content: center;
+    
 }
 
 .flex-container{
@@ -74,6 +79,15 @@ main {
     right: 7rem;
     top: 15rem;
     position: absolute;
+}
+
+.p-welcome-container{
+    display: grid;
+    justify-content: center;
+}
+
+.p-welcome-container p{
+    font-size: 20px;
 }
 
 .container-adocao{
