@@ -54,6 +54,10 @@ main {
     padding: 1rem;
 }
 
+.flex-container{
+    display: flex;
+}
+
 .container-adocao{
     display: flex;
     justify-content: space-around;
@@ -111,6 +115,7 @@ section {
     justify-content: center;
     border-radius: 80px;
     width: 40rem;
+    padding-bottom: 9px;
 }
 
 .p-contacts{
