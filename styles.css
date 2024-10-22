@@ -71,6 +71,9 @@ main{
 
 .subt-welcome{
     font-size: 15rem;
+    position: relative;
+    display: flex;
+    right: 3rem;
 }
 
 .img-logo{
